@@ -1,0 +1,93 @@
+.inline{
+    display: inline;
+}
+.center{
+    margin: auto;
+    width: 18%;
+    border: 7px solid #73AD21;
+    padding: 10px;
+}
+
+.numbers{
+    background-color: #012727 ;
+    border: none;
+    color: ghostwhite;
+    font-size: 16px;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border: 2px solid lightgrey;
+}
+
+.options{
+    background-color: #fca800 ;
+    border: none;
+    color: ghostwhite;
+    font-size: 16px;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border: 2px solid lightgrey;
+}
+.operators{
+    background-color: #d21b15 ;
+    border: none;
+    color: ghostwhite;
+    font-size: 16px;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border: 2px solid lightgrey;
+}
+#result{
+    background-color: #18ad00 ;
+    border: none;
+    color: ghostwhite;
+    font-size: 16px;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border: 2px solid lightgrey;
+}
+#cero{
+    background-color: #012727 ;
+    border: none;
+    color: ghostwhite;
+    font-size: 16px;
+    width: 155px;
+    height: 75px;
+    display: inline-block;
+    border: 2px solid lightgrey;
+}
+#back{
+    background-color: #fca800 ;
+    border: none;
+    color: ghostwhite;
+    font-size: 16px;
+    width: 155px;
+    height: 75px;
+    display: inline-block;
+    border: 2px solid lightgrey;
+}
+#calculadora{
+    background-color: lightgrey;
+}
+ #aline{
+     text-align: center;
+ }
+ html{
+    background: url(http://getwallpapers.com/wallpaper/full/7/c/6/765090-most-popular-technology-background-images-1920x1080-hd-for-mobile.jpg);
+    background-size: cover;
+}
+#screen{
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    font-family: monospace;
+    height: 50px;
+}
+
+.numbers:hover, #cero:hover, #back:hover, .options:hover, #result:hover, .operators:hover{
+    opacity: 0.7;
+}
